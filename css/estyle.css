@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contacto*/
+.bod{
+    background-image: url('images1.jpg');
+}
+/* Formulario*/
+
+.bod1{
+    background-image: url('mich.png');
+}
+/*NODE.JS*/
+.body2{
+    background-image: url('is.png');
+}
+
+/* Django*/
+.body3{
+    background-image: url('ya.png');
+}
+/**Laravel*/
+.body4{
+    background-image: url('1.png');
+}
+/*spring*/
+.body5{
+    background-image: url('al.png');
+}
+
+#imp{
+    float:left;
+    width: 40%;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#t{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t1{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t2{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t3{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t4{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t5{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+#t6{
+    font-size: 1em;
+    color:deeppink;
+    font-style: italic;
+}
+
+.center{
+    margin: 0 auto;
+    display: block;
+   }
+
+#tex{
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(226, 43, 43);
+}
+
+
+.cabecera{
+    background-image: url('ya.png');
+    height: 150px;
+    font-size: 1em;
+    color: azure;
+    text-align: center;
+    padding: 30px 10px 0px 20px ;
+}
+
+.cabecera4{
+    background-image: url('fondo1.png');
+    height: 150px;
+    font-size: 1em;
+    color: azure;
+    text-align: center;
+    padding: 30px 10px 0px 20px ;
+}
+
+
+.cabecera img{
+float: left;
+width: 10%;
+}
+
+.nombre{
+    font-size: 2.5em;
+    color:yellow;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    font-size: 1.5em;
+    color:white;
+    text-decoration: none;
+    padding-right: 15px;
+
+}
+
+nav ul li a:hover{
+    font-size: 2em;
+    color:deeppink;
+    text-decoration:underline;
+    padding-right: 15px;
+} 
+
+p{
+    color:white;
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-left: 500px;
+    padding-right: 5px;
+}
+
+#ad{
+    color:brown;
+    text-align: center;
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pie{
+    background-image: url('jjos.jpg');
+    height: 180px;
+    font-size: 1em;
+    color: azure;
+    text-align: center;
+    padding: 20px 10px 0px 10px ;
+    text-align: center;
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pie1{
+    color:aliceblue;
+    text-align: right;
+    font-size: 1em;
+
+} 
+
+.ar{
+    float: right;
+    display: flex;
+    align-items: center;
+    color: white;   
+}
+
+#art{
+    float: right;
+    color:aqua;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#gen {
+    float: right;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+
+#inves{
+    font-size: 1.5em;
+    color: aquamarine;
+    font-style: italic;
+}
+
+.def{
+    float: left;
+    color:aqua;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#gen1 {
+    float: right;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    border: 5px solid yellow;
+  }
+  
+#table th, td{
+    padding: 10px;
+    color: white;
+    width: 25%;
+    text-align:left;
+    border: 1px solid;
+ font-family:'Courier New', Courier, monospace
+}
+
+#tab1{
+    color: turquoise;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#tab2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+#ttab2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+#tab22{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+
+#tabl2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+#table20{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+#taab2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+
+#tabb2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+#table2{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+#table3{
+    color: magenta;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+#imgnode{
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 50px;
+}
+
+#imgnodee{
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 50px;
+}
+
+.def3{
+    color: white;
+    font-size: 1.5em;
+
+}
+
+
+.def4{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 500px;
+}
+
+#pag{
+    color: aqua;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-left: 600px;
+}
+
+.fondo{
+    background-image: url('demo2.jpg');
+}
+
+#car{
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 50px; 
+}
+
+#pr{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#autor{
+    text-align: left;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:crimson;
+}
+
+#autor1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:white;
+}
+
+#autorr{
+    text-align: left;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:crimson;
+}
+
+#autor2{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:white;
+}
+
+#autor3{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#autor4{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:white;}
+
+#autor5{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:brown;
+    text-align: center;
+}
+
+#p{
+    text-align: right;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#p1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.principal{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    color: white;
+    float: right;
+}
+
+.principal1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    color: orangered;
+    float: right;
+}
+
+.cabecera1{
+    background-image: url('demo2.jpg');
+    height: 150px;
+    font-size: 1em;
+    color: azure;
+    text-align: center;
+    padding: 30px 10px 0px 20px ;
+}
+
+#for{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: white;
+}
+
+#for1{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+.form{
+    width: 300px;
+    background-color:thistle;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    box-shadow: 30px 30px 37px pink;
+}
+
+.form h1{
+    font-size: 40px;;
+    margin-bottom: 20px;
+    color:crimson;
+    text-align: center;
+}
+
+.form h2{
+    font-size: 20px;;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.controls{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid mediumvioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    box-shadow: 30px 30px 37px pink;
+
+}
+
+.form .botons{
+    margin: 40px 0;
+    font-size: 18px;
+
+}
+
+.dd{
+    color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.cabecera{
+    background-image: url('mich.png');
+    height: 150px;
+    font-size: 1em;
+    color: azure;
+    text-align: center;
+    padding: 30px 10px 0px 20px ;
+
+}

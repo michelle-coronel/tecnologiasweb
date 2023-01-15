@@ -4,43 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estyle.css">
     <title>Formulario</title>
 </head>
-<body>
-    <span><img src="imagenes/logotipo.jpeg" alt="Logotipo"></span>
-<section>
-    <h1>FORMULARIO EN LÍNEA</h1>
-    <h3>Por favor, ingrese los siguientes datos:</h3>
-    <form action="https://www.xataka.com/" method="post" target="_blank">
-        <p><label>Ingrese su DNI: <input type="text" name="dni"  required></label></p>
-        <p><label>Ingrese sus nombres: <input type="text" name="nombre" required></label></p>
-        <p><label>Ingrese sus apellidos: <input type="text" name="apellidos" required></label></p>
-        <p><label>Ingrese su email: <input type="email" name="email" required></label></p>
-        <p><label>Ingrese su fecha de nacimiento: <input type="date" name="Fecha de nacimiento" required></label></p>
-        <p><label>Ingrese su edad: <input type="number" name="edad" required></label></p>
-        <p><label>Ingrese su Dirección: <input type="text" name="direccion" required></label></p>
-        <p><label>Ingrese su número de contacto: <input type="text" name="contacto" required></label></p>
-        <p>Ingrese sus Intereses:
-            <br>
-            <br>
-          <label><input type="checkbox" name="block">Blockchain</label>
-          <br>
-          <label><input type="checkbox" name="iot">IoT</label> 
-          <br>             
-          <label><input type="checkbox" name="bd">Big Data</label>
-          <br>
-          <label><input type="checkbox" name="ia">Inteligencia Artificial</label>
-          <br>
-          <label><input type="checkbox" name="ml">Machine Learning</label>
-          <br>
-          <label><input type="checkbox" name="rva">Realidad Virtual y Aumentada</label>
-          <br>
-        </p>
-        <p><input type="submit" value="Enviar datos"> <input type="reset" value="Restaurar formulario"></p>
-          </form>
+<body class="bod1">
+        
+    <header class = "cabeceraa">
+        <nav>
+        <ul>
+            <li><a class ="principal" href="index.html">VOLVER A PÁGINA PRINCIPAL</a></li> 
+        </ul>
+    </nav>  
+    </header>
+   
+   <section class ="form">
+        <h1>FORMULARIO</h1>
+        <input class ="controls" type="text" name="dni" placeholder="Ingrese su DNI:" required>
+        <input class ="controls" type="text" name="nombre" placeholder="Ingrese sus nombres" required >
+        <input class ="controls" type="text" name="apellidos" placeholder="Ingrese sus apellidos" required>
+        <input class ="controls"  type="email" name="email"  placeholder="Ingrese su email" required>
+        <input class ="controls" type="number" name="edad" placeholder="Ingrese su edad" required>
+        <input class ="controls" type="text" name="direccion" placeholder="Ingrese su Dirección: " required>
+        <input class ="controls" type="text" name="contacto" placeholder="Ingrese su número de contacto:" required>
+        <h2>Ingrese sus intereses</h2>
+        <input type="checkbox" name="block">Blockchain <br>
+        <input type="checkbox" name="iot">IoT <br>
+        <input type="checkbox" name="bd">Big Data <br>
+        <input type="checkbox" name="bd">Inteligencia Artificial<br>
+        <input type="checkbox" name="bd">Realidad Virtual <br>
+        <br>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Restaurar formulario">
 </section>
-<ul>
-    <li><a href="index.html">VOLVER A PÁGINA PRINCIPAL</a></li>
-</ul>
+
         </body>
 </html>

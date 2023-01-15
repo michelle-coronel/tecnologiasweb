@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Index*/
+body{
+    font-family: 'open sans';
+    background-image: url('ver.png');
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:rgb(245, 198, 198);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url('rl.png');
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 15px;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    font-size: 2em;
+    color:deeppink;
+    text-decoration:underline;
+    padding-right: 15px;
+} 
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-header{
+    font-size: 50px;
+    color:rgb(220, 20, 73);
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 50%;
+
+ }
+
+ .sobre-nosotros .contenido-textos{
+    width: 48%;
+ }
+
+ .contenido-textos h3{
+margin-bottom: 15px; 
+
+}
+
+.contenido-textos h3 span{
+    background: purple;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 2px;
+    margin-right: 15px;
+}
+
+.contenido-textos p{
+ padding: 20px 0px 50px 15px;
+ text-align: justify;
+ color: white;
+}
+
+
+footer{
+    background: white;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black; 
+}
+
+.content foo {
+    text-align: center;
+}
+
+.content-foo h4{
+    color: magenta;
+    border-bottom: 3px solid pink;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-foo p{
+    color: orange;
+}
+
+.titulo-final{
+    text-align: right;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+
+.busqueda{
+    font-style: italic;
+    font-size: 2em;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+
+.center{
+    margin: 0 auto;
+    display: block;
+   }
+
+#tex{
+    font-size: 2em;
+    font-style: italic;
+    color:rgb(229, 218, 204);
+}
+
